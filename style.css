@@ -172,3 +172,17 @@ section {
 .service p {
     font-size: 18px;
 }
+
+/* CTA */
+#cta {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/cta2.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#cta h2,
+#cta p {
+    color: #fff;
+}
