@@ -227,6 +227,10 @@ section {
     overflow: hidden;
 }
 
+.team-member-img {
+    transition: all 0.5s ease;
+}
+
 .team-member {
     text-align: center;
 }
@@ -275,6 +279,20 @@ section {
     transform: scale(1.1);
 }
 
-.team-member-img {
-    transition: all 0.5s ease;
+/* Milestone */
+#milestone {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/cover3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.counter .divider {
+    width: 70px;
+    height: 2px;
+    background-color: var(--brand);
+    display: inline-block;
 }
