@@ -218,3 +218,63 @@ section {
     transform: scale(1.2);
     filter: blur(2px);
 }
+
+/* Testimonial */
+
+/* Team */
+.team-member .team-member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member h5 {
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+
+.social-link {
+    display: flex;
+}
+
+.social-link a {
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    color: var(--brand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin: 4px;
+}
+
+.social-link a:hover {
+    background-color: var(--brand);
+    color: #fff;
+}
+
+.team-member .social-link {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .social-link {
+    bottom: 20px;
+    opacity: 1;
+}
+
+.team-member:hover img {
+    transform: scale(1.1);
+}
+
+.team-member-img {
+    transition: all 0.5s ease;
+}
