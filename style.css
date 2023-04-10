@@ -186,3 +186,35 @@ section {
 #cta p {
     color: #fff;
 }
+
+/* Portfolio */
+.project-warper {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-warper img {
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.project-warper .btn {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+
+.project-warper:hover .btn-brand {
+    top: 50%;
+    opacity: 1;
+}
+
+.project-warper:hover img {
+    transform: scale(1.2);
+    filter: blur(2px);
+}
