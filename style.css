@@ -220,6 +220,56 @@ section {
 }
 
 /* Testimonial */
+#testimonial {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/cover3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.review {
+    padding: 34px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--border-radius);
+}
+
+.review .star {
+    color: #ffa500;
+}
+
+.review p {
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.review h6,
+.review small {
+    color: #fff;
+}
+
+.review span {
+    color: var(--brand);
+}
+
+.review img {
+    width: 75px !important;
+    border-radius: 100px;
+}
+
+#testimonial .owl-dot span {
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 12px;
+    height: 12px;
+    transition: all 0.6s ease;
+}
+
+#testimonial .owl-dot.active span {
+    width: 24px;
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
 
 /* Team */
 .team-member .team-member-img {
