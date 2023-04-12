@@ -16,15 +16,19 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white sticky-top p-3">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top p-3 shadow-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">D-Marketing</a>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -61,15 +65,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-3">Digital Marketing Expert</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur
+                    <h2 class="display-3" data-aos="fade-left">Digital Marketing Expert</h2>
+                    <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur
                         adipisicing elit.
                         Consequatur rem quis nesciunt! Quia,
+                        quasi hic Quia,
                         quasi hic?</p>
                 </div>
             </div>
             <div class="row">
-                <form action="" class="col-lg-6 mx-auto">
+                <form action="" class="col-lg-6 mx-auto" data-aos="fade-up">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Email Address"
                             aria-label="Recipient's username" aria-describedby="button-addon2">
@@ -87,25 +92,25 @@
                 <div class="col-md-8 col-sm-6 text-center">
                     <h2 class="display-5">Our Services</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi soluta repellendus unde
-                        assumenda, vel provident!</p>
+                        assumenda.</p>
                 </div>
             </div>
             <!-- Section Content -->
             <div class="row gy-3">
                 <!-- 1 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="150">
                     <div class="service custom-card">
                         <div class="icon-box">
                             <i class="bi bi-brush"></i>
                         </div>
-                        <h4>WEB DESIGNING</h4>
+                        <h4>VIDEO EDITING</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vel excepturi officiis
                             consequuntur minus reiciendis.</p>
                         <a href="#" class="custom-link">Read More</a>
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="250">
                     <div class="service custom-card">
                         <div class="icon-box">
                             <i class="bi bi-motherboard"></i>
@@ -117,7 +122,7 @@
                     </div>
                 </div>
                 <!-- 3 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="350">
                     <div class="service custom-card">
                         <div class="icon-box">
                             <i class="bi bi-phone-flip"></i>
@@ -129,7 +134,7 @@
                     </div>
                 </div>
                 <!-- 4 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="450">
                     <div class="service custom-card">
                         <div class="icon-box">
                             <i class="bi bi-laptop"></i>
@@ -141,24 +146,24 @@
                     </div>
                 </div>
                 <!-- 5 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="500">
                     <div class="service custom-card">
                         <div class="icon-box">
                             <i class="bi bi-mouse2"></i>
                         </div>
-                        <h4>SEO</h4>
+                        <h4>SEO & SEM</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vel excepturi officiis
                             consequuntur minus reiciendis.</p>
                         <a href="#" class="custom-link">Read More</a>
                     </div>
                 </div>
                 <!-- 6 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="600">
                     <div class="service custom-card">
                         <div class="icon-box">
                             <i class="bi bi-layers"></i>
                         </div>
-                        <h4>WEB DEVELOPMENT</h4>
+                        <h4>CONTENT WRITING</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vel excepturi officiis
                             consequuntur minus reiciendis.</p>
                         <a href="#" class="custom-link">Read More</a>
@@ -172,13 +177,13 @@
         <div class="container">
             <div class="row justify-content-around align-content-center">
                 <div class="col-lg-8 p-2">
-                    <h2>Lorem ipsum dolor sit amet, adipisicing elit.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur
+                    <h2 data-aos="fade-left">Lorem ipsum dolor sit amet, adipisicing elit.</h2>
+                    <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur
                         debitis quos.
                         Asperiores, a
                         maiores?</p>
                 </div>
-                <div class="col-auto p-2 mt-3">
+                <div class="col-auto p-2 mt-3" data-aos="fade-up">
                     <a href="#" class="btn btn-brand">Get Started</a>
                 </div>
             </div>
@@ -192,12 +197,12 @@
                 <div class="col-md-8 col-sm-6 text-center">
                     <h2 class="display-5">Our Portfolio</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi soluta repellendus unde
-                        assumenda, vel provident!</p>
+                        assumenda.</p>
                 </div>
             </div>
             <!-- Section Content -->
             <div class="row gy-4">
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="zoom-in-down">
                     <div class="project-warper">
                         <img src="images/p1.jpg" alt="">
                         <a href="#" class="btn btn-brand">View Project</a>
@@ -205,13 +210,13 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="row gy-4">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" data-aos="zoom-in-down">
                             <div class="project-warper">
                                 <img src="images/p2.jpg" alt="">
                                 <a href="#" class="btn btn-brand">View Project</a>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12" data-aos="zoom-in-down">
                             <div class="project-warper">
                                 <img src="images/p3.jpg" alt="">
                                 <a href="#" class="btn btn-brand">View Project</a>
@@ -219,7 +224,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="zoom-in-down">
                     <div class="project-warper">
                         <img src="images/p4.jpg" alt="">
                         <a href="#" class="btn btn-brand">View Project</a>
@@ -237,7 +242,7 @@
                     <h2 class="display-5 text-white">Our Testimonial</h2>
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi soluta
                         repellendus unde
-                        assumenda, vel provident!</p>
+                        assumenda.</p>
                 </div>
             </div>
             <!-- Section Content -->
@@ -355,7 +360,7 @@
             <!-- Section Content -->
             <div class="row">
                 <!-- 1 -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                     <div class="team-member">
                         <div class="team-member-img">
                             <img src="images/team-member01.jpg" alt="">
@@ -366,12 +371,12 @@
                                 <a href="#"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
-                        <h5>Member One</h5>
+                        <h5>John Wick</h5>
                         <small>Web Developer</small>
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                     <div class="team-member">
                         <div class="team-member-img">
                             <img src="images/team-member02.jpg" alt="">
@@ -382,12 +387,12 @@
                                 <a href="#"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
-                        <h5>Member One</h5>
-                        <small>Web Developer</small>
+                        <h5>Silver Stallion</h5>
+                        <small>App Developer</small>
                     </div>
                 </div>
                 <!-- 3 -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                     <div class="team-member">
                         <div class="team-member-img">
                             <img src="images/team-member03.jpg" alt="">
@@ -398,12 +403,12 @@
                                 <a href="#"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
-                        <h5>Member One</h5>
-                        <small>Web Developer</small>
+                        <h5>Alan Walker</h5>
+                        <small>Seo Expert</small>
                     </div>
                 </div>
                 <!-- 4 -->
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in">
                     <div class="team-member">
                         <div class="team-member-img">
                             <img src="images/team-member04.jpg" alt="">
@@ -414,8 +419,8 @@
                                 <a href="#"><i class="bi bi-github"></i></a>
                             </div>
                         </div>
-                        <h5>Member One</h5>
-                        <small>Web Developer</small>
+                        <h5>John Doe</h5>
+                        <small>Content Writter</small>
                     </div>
                 </div>
             </div>
@@ -466,7 +471,7 @@
             <!-- Section Content-->
             <div class="row">
                 <!-- 1 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left">
                     <div class="blog-post custom-card">
                         <img src="images/blog-post1.jpg" alt="" class="rounded-top">
                         <div class="blog-content">
@@ -479,7 +484,7 @@
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left">
                     <div class="blog-post custom-card">
                         <img src="images/blog-post2.jpg" alt="" class="rounded-top">
                         <div class="blog-content">
@@ -492,12 +497,12 @@
                     </div>
                 </div>
                 <!-- 3 -->
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-6" data-aos="flip-left">
                     <div class="blog-post custom-card">
                         <img src="images/blog-post3.jpg" alt="" class="rounded-top">
                         <div class="blog-content">
                             <a href="#" class="tag">Branding</a>
-                            <h4 class="mt-3">Digital Marketing</h4>
+                            <h4 class="mt-3">Content Writting</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsam at pariatur! Omnis
                                 maxime mollitia provident architecto voluptate, tempore exercitationem?</p>
                             <a href="#" class="custom-link">Read More</a>
@@ -670,6 +675,11 @@
                 }
             }
         })
+    </script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
     <!-- Custom Js -->
     <script src="main.js"></script>
